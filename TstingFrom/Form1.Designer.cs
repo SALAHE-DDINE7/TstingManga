@@ -151,6 +151,7 @@
             dataGridView.RowHeadersWidth = 62;
             dataGridView.Size = new Size(777, 225);
             dataGridView.TabIndex = 11;
+            dataGridView.CellClick += dataGridView_CellClick;
             // 
             // button1
             // 
@@ -160,6 +161,7 @@
             button1.TabIndex = 12;
             button1.Text = "Search";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Addbutton
             // 
@@ -169,6 +171,7 @@
             Addbutton.TabIndex = 13;
             Addbutton.Text = "Add";
             Addbutton.UseVisualStyleBackColor = true;
+            Addbutton.Click += Addbutton_Click;
             // 
             // updatebutton
             // 
@@ -188,6 +191,7 @@
             Deletebutton.TabIndex = 15;
             Deletebutton.Text = "Delete";
             Deletebutton.UseVisualStyleBackColor = true;
+            Deletebutton.Click += Deletebutton_Click;
             // 
             // loadatabutton
             // 
@@ -197,6 +201,7 @@
             loadatabutton.TabIndex = 16;
             loadatabutton.Text = "Load data";
             loadatabutton.UseVisualStyleBackColor = true;
+            loadatabutton.Click += loadatabutton_Click;
             // 
             // Form1
             // 
